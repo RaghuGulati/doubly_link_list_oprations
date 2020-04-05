@@ -180,7 +180,6 @@ void print_list_all(Sorted_list * list_detail, int mode)
 void print_list_sort(Sorted_list * list_detail, int mode){
     struct Node* n2 = (struct Node*)malloc(sizeof(struct Node));
 	
-    printf("print_all:  Key Sort Order  \n");
     n2 = list_detail->head_sort;
     while (n2 != NULL) {  
         printf("     %0.3f  ", n2->key);

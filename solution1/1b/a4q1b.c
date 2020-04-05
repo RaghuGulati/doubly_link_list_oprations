@@ -510,7 +510,7 @@ int main( int argc, char *argv[] )
 				if(arr_ptr != NULL){
 				print_array(diff(list[n],list[m],SORTED_ORDER),list[m]->size);
 				} else{
-                                        printf("Entered  lists are of different size");
+                                        printf("\nEntered  lists are of different size");
                                 }
 
 			}
@@ -520,7 +520,7 @@ int main( int argc, char *argv[] )
 				print_array(diff(list[n],list[m],INSERTED_ORDER),list[m]->size);
 				}
 				else{
-					printf("Entered  lists are of different size");
+					printf("\nEntered  lists are of different size");
 				}
 
 			}
